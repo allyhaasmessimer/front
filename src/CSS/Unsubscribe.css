@@ -13,8 +13,8 @@
 }
 .unsubscribe-input,
 .unsubscribe-button {
-    display: inline-block; /* Display inline-block to be on the same line */
-    vertical-align: middle; /* Vertically align elements in the middle */
+    display: inline-block;
+    vertical-align: middle; 
 }
 
 .unsubscribe-input {

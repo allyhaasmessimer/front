@@ -13,7 +13,7 @@
   grid-template-rows: auto auto;
   background-color: var(--primary);
 
-  padding-right: 20px; /* Adjust the desired padding */
+  padding-right: 20px;
 }
 
 .blog-page-title {
@@ -28,12 +28,12 @@
 .post-list {
   padding-top: 20px;
   display: grid;
-  grid-template-columns: repeat(5, calc(20% - 10px)); /* Adjust the number of columns and gap size */
-  gap: 2px; /* Adjust the desired padding */
+  grid-template-columns: repeat(5, calc(20% - 10px));
+  gap: 2px;
   align-items: start;
   background-color: var(--primary);
-  padding-left: 6%; /* Adjust the desired padding */
-  padding-right: 2%; /* Adjust the desired padding */
+  padding-left: 6%;
+  padding-right: 2%;
 }
 
 .post-card {
@@ -47,7 +47,7 @@
   width: 100%;
   height: auto;
   max-height: 300px;
-  min-height: 300px; /* Adjust the desired fixed height */
+  min-height: 300px; 
   object-fit: cover;
   max-width: 250px;
   min-width: 200px;
@@ -57,7 +57,7 @@
   text-align: left;
   width: 75%;
   margin-bottom: 0;
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--secondary);

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../CSS/Footer.css";
 import SubscribeForm from "./SubscribeForm";
 
