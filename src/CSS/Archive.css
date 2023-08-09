@@ -1,0 +1,43 @@
+.archive-title {
+    font-size: 4em;
+    text-align: left;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: var(--secondary);
+    background-color: var(--primary);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+  }
+
+  .post-container {
+    margin-bottom: 20px;
+  }
+
+  .read-more-button {
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .read-more-button:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+  }
+
+  .archive-post-title {
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--secondary);
+    text-transform: uppercase;
+  }

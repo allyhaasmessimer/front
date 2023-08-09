@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-color: var(--primary);
+}
+
+:root {
+  --primary: #f4f5f0;
+  --secondary: #4c5cb8;
+  --third-color: #000022;
+  --fourth-color: #121113;
+  --button-width: 150px;
+  --card-height: 450px;
+  --card-height-hidden: 300px;
+}
+
+.navbar {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 10px;
+}
+
+.navbar-title {
+  padding-right: 5px;
+  color: var(--secondary);
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.menu-link:hover {
+  color: var(--third-color)
+}
+
+.navbar-title a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-left: auto;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: var(--secondary);
+  align-items: center;
+  margin-right: 10px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.nav-link {
+  color: var(--secondary);
+
+}
+
+.nav-link:hover {
+  color: var(--third-color);
+
+}
+.nav_logo_img {
+  width: 55px;
+}
