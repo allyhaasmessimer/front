@@ -13,7 +13,7 @@ function App() {
         <BrowserRouter>
             <Nav />
             <Routes>
-                <Route path="/" index element={<PostList />} />
+                <Route exact path="/" index element={<PostList />} />
                 <Route path="/unsubscribe" index element={<UnsubscribeForm />} />
                 <Route path="/blog/:slug" element={<PostDetail />} />
                 <Route path="/blog/archive" element={<ArchiveList />} />
