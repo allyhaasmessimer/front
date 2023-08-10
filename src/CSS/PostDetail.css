@@ -20,7 +20,7 @@
 }
 
 .post-content {
-    width: 40%;
+    width: 75%;
     flex-direction: column;
     align-items: left;
 }
@@ -39,6 +39,6 @@
     text-align: left;
     color: var(--secondary);
     font-family: "Roboto", sans-serif;
-    font-size: 12px; 
+    font-size: 12px;
     white-space: pre-line;
 }
