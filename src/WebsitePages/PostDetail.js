@@ -40,7 +40,7 @@ function PostDetail() {
         <h1 className="post-title">{post.title}</h1>
         <h2 className="post-date">{formatDate(post.created_on)}</h2>
         <p>{post.content}</p>
-        <img src={BASE_URL + post.image} width="600px" alt={`visual for the blog post titled "${post.title}"`} className="blog-post-image" />
+        <img src={`${post.image}`} width="600px" alt={`visual for the blog post titled "${post.title}"`} className="blog-post-image" />
 
       </div>
     </div>

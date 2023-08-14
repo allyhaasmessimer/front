@@ -26,13 +26,14 @@ function PostList() {
         return date.toLocaleDateString(undefined, options);
     };
 
+
     return (
         <div className="container">
             <h1 className="blog-page-title">BLOG POSTS</h1>
             <div className="post-list">
                 {posts.slice(0, 5).map((post) => (
                     <div className="post-card" key={post.id}>
-                        <img src={`${BASE_URL}${post.image}`} alt={`visual for the blog post titled "${post.title}"`}/>
+                        <img src={`${post.image}`} alt={`visual for the blog post titled "${post.title}"`} />
                         <h3>{post.title}</h3>
                         <p className="post-list-content">
                             {post.content.split(" ").slice(0, 20).join(" ")}
