@@ -1,3 +1,10 @@
+# Book of Ally Frontend
+
+Book of Ally is a React blog designed to be user friendly. User can scroll through a variety of blog posts covering a wide range of topics.
+
+User can stay connected by subscribing to receive email updates whenever new posts are published. If user decides email updates are no longer wanted, unsubscribing is just as easy. Finally, this blog contains 'About Me' section to get to know the author a little better.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
